@@ -240,8 +240,8 @@ function important_information() {
  echo -e "${GREEN}Stop:${NC}${RED}systemctl stop $COIN_NAME.service${NC}"
  echo -e "${GREEN}VPS_IP:${NC}${GREEN}$NODEIP:$COIN_PORT${NC}"
  echo -e "${GREEN}Usage Commands.${NC}"
- echo -e "${GREEN}cryptoflow-cli getmasternodestatus${NC}"
- echo -e "${GREEN}cryptoflow-cli getinfo${NC}"
+ echo -e "${GREEN}solidus-cli getmasternodestatus${NC}"
+ echo -e "${GREEN}solidus-cli getinfo${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
  
  }
