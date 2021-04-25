@@ -6,11 +6,11 @@ CONFIGFOLDER='/root/.solidus'
 COIN_DAEMON='solidusd'
 COIN_CLI='solidus-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ=''
+COIN_TGZ='https://github.com/solidus-exchange/solidus-coin/releases/download/2.0.0.1/solidus-x86_64-linux.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='solidus'
-COIN_PORT=123
-RPC_PORT=123
+COIN_PORT=8200
+RPC_PORT=8300
 
 NODEIP=$(curl -s4 icanhazip.com)
 
